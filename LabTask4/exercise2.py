@@ -1,0 +1,6 @@
+print(df.shape)
+print(df.columns)
+print(df.dtypes)
+df.info()
+display(df.describe())
+print(df["species"].value_counts())
